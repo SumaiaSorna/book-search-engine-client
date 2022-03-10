@@ -1,70 +1,80 @@
-# Getting Started with Create React App
+# Book-search-engine-client ![MIT](https://img.shields.io/static/v1?label=MIT&message=License&color=green)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Deployed URL
 
-## Available Scripts
+Click [here](https://secure-coast-73388.herokuapp.com/) to view deployed application on Heroku.
 
-In the project directory, you can run:
+## Repository Link
 
-### `npm start`
+Click [here](https://github.com/SumaiaSorna/book-search-engine-client/tree/dev) to view Code on Github.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Table Of Contents
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- [Deployed URL](#deployed-url)
+- [Repository Link](#repository-link)
+- [Description](#description)
+- [Getting Started](#getting-started)
+  - [Installation](#installation)
+  - [Technologies Used](#technologies-used)
+  - [Launch The App](#launch-the-app)
+  - [Database Configuration](#database-configuration)
+- [Screenshots](#screenshots)
+- [Questions](#questions)
 
-### `npm test`
+## Description
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The app is built with a React front end, MongoDB database, and an Apollo server with GraphQL queries and mutations.
 
-### `npm run build`
+## Getting Started
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Installation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
+git clone git@github.com:SumaiaSorna/book-search-engine-client.git
+cd book-search-engine-client
+code .
+npm i
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+To run the app, you will also need to install the book-search-engine-client repo:
 
-### `npm run eject`
+```
+git clone git@github.com:SumaiaSorna/book-search-engine-server.git
+cd book-search-engine-server
+code .
+npm i
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Technologies Used
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- React.js
+- Apollo Client
+- Apollo Server
+- MongoDB
+- Mongoose
+- GraphQL
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Launch The App
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```
+npm run start
+```
 
-## Learn More
+### Database Configuration
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+To run the app you have to set up a .env file , using the .env_EXAMPLE provided. You have to include the database name and secret key
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```
+DB_NAME=
+SECRET=
+```
 
-### Code Splitting
+## Screenshots
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+![Google-Book-Search-books](./public/assets/screenshots/Google-Book-Search-books.png)
 
-### Analyzing the Bundle Size
+![Google-Book-Search-saved-books](./public/assets/screenshots/Google-Book-Search-saved-books.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Questions
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+If you have any questions about this application, please feel free to contact me in my <a href="mailto:sorna.sumaia@gmail.com">email.</a>
